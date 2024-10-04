@@ -53,13 +53,9 @@ namespace blekenbleu
 		public string? defaults;
 		public string? properties;
 	}   // class CarSpec
-/*
+
 	// format for downloading from website; must be public
-	public class Download
-	{
-		public List<CarSpec> data;
-	}
- */
+
 	public class ListDictionary : NotifyPropertyChanged
 	{
 		internal Dictionary<string, List<CarSpec>> inDict;
