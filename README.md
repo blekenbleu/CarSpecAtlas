@@ -13,3 +13,5 @@
 - *5 Oct 2024*  dll size for trivial dictionary:  8 kB
 	- [iterate dictionary](https://code-maze.com/csharp-iterate-through-dictionary/)  
     - [iterate list](https://www.tutorialsteacher.com/articles/foreach-loop-in-csharp)  
+- *6 Oct*
+	- 1054KB DLL using Atlas_engine_data.json content
