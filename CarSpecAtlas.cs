@@ -1,16 +1,12 @@
-
-using System.Security.Cryptography.X509Certificates;
-
 namespace blekenbleu
 {
-    public class CarSpecAtlas
+    public partial class CarSpecAtlas
     {
-        public string Version = "0.2";
-        public Dictionary<string, List<CarSpec>> AtlasDict;
-
+        public string Version = "0.3";
+        public Dictionary<string, List<CarSpec>> AtlasDictTest;
         public CarSpecAtlas()
         {
-            AtlasDict = new()
+            AtlasDictTest = new()
             {
 				{						// first game list
 					"game1", new () {	// first CarSpec
@@ -33,7 +29,7 @@ namespace blekenbleu
    	            		}
 					}
 				}
-            };							// AtlasDict
+            };							// AtlasDictTest
         }
 
         public Dictionary<string, List<CarSpec>> Atlas()
@@ -41,5 +37,4 @@ namespace blekenbleu
 			return AtlasDict;
 		}
     }
-
 }
